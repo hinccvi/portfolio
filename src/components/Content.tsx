@@ -13,23 +13,23 @@ const Content: React.FC<DarkModeProps> = (props) => {
       }
     >
       <div className="w-full flex flex-col items-center">
-        <div className="w-6/12 md:w-1/12 lg:w-2/12">
+        <div className="w-5/12 lg:w-2/12">
           <ProfilePicture />
         </div>
-        <p className="w-4/6 md:w-2/6 pt-7 text-justify text-xl">
+        <p className="w-4/6 text-sm md:w-2/6 pt-7 text-justify lg:text-xl">
             Malaysia 🇲🇾 Software Engineer currently located in Cambodia 🇰🇭.
           Golang, distributed system & DDD enthusiastic.
         </p>
-        <p className="w-4/6 md:w-2/6 pt-7 text-justify text-xl">
+        <p className="w-4/6 text-sm md:w-2/6 pt-7 text-justify lg:text-xl">
             Interested in exploring interview. If you think there's anything
           else that might interest me, feel free to send them my way too! DMs on
           the platforms above works fine but here's my email if you prefer
         </p>
-        <div className="flex pt-7 space-x-7 text-lg">
+        <div className="flex text-xs pt-7 space-x-7 lg:text-lg">
           <p>
             <a
               className="hover:underline underline-offset-4"
-              href="mailto:alexander.thong.wh@gmail.com"
+              href="mailto:thong@wanhin.me"
               target="_blank"
             >
               Email

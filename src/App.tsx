@@ -13,6 +13,7 @@ const App: React.FC = () => {
         (darkMode ? "dark-background" : "light-background")
       }
     >
+      <div />
       <Header darkMode={darkMode} setDarkMode={setDarkMode} />
       <Content darkMode={darkMode} setDarkMode={setDarkMode} />
       <Footer darkMode={darkMode} setDarkMode={setDarkMode} />

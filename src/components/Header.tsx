@@ -8,7 +8,7 @@ const Header: React.FC<DarkModeProps> = (props) => {
   return (
     <div
       className={
-        "w-2/3 mt-7 p-7 h-auto flex justify-between text-lg " +
+        "w-2/3 text-xs p-7 h-auto flex justify-between items-center lg:text-lg " +
         (darkMode ? "dark-glassmorphism" : "light-glassmorphism")
       }
     >

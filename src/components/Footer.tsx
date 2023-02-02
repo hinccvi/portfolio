@@ -7,7 +7,7 @@ const Footer: React.FC<DarkModeProps> = (props) => {
   return (
     <div
       className={
-        "w-2/3 h-auto mb-7 py-7 text-center text-lg " +
+        "w-2/3 text-xs h-auto mb-7 py-7 text-center lg:text-lg " +
         (darkMode ? "dark-glassmorphism" : "light-glassmorphism")
       }
     >

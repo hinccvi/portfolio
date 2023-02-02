@@ -12,6 +12,7 @@ const Toggle: React.FC<DarkModeProps> = (props) => {
             type="checkbox"
             className="sr-only peer"
             checked={darkMode}
+            placeholder="dark mode"
             readOnly
           />
           <div
